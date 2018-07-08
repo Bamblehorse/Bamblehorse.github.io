@@ -1,0 +1,18 @@
+.app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+  background: deepskyblue;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+@media screen and (max-width: 400px) {
+  .app {
+    font-size: 1.5rem; } }
+
+.app__title {
+  padding: 2rem;
+  margin: 0.5rem;
+  border: solid 5px; }
